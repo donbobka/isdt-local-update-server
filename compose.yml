@@ -1,0 +1,9 @@
+version: '3.10'
+services:
+  nginx:
+    build: .
+    image: donbobka/isdt-local-updater:isdt-official-latest
+    ports:
+      - "443:443"
+    volumes:
+      - ./ssl:/etc/nginx/ssl
