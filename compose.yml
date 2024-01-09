@@ -2,7 +2,7 @@ version: '3.10'
 services:
   nginx:
     build: .
-    image: donbobka/isdt-local-updater:isdt-official-latest
+    image: donbobka/isdt-local-updater:c4evo-kyosho-1.0.0.10
     ports:
       - "443:443"
     volumes:
